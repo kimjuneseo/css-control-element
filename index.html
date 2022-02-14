@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./fontawesome/css/font-awesome.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>CSS</title>
+</head>
+
+<body>
+  <div class="mainWrap" >
+    
+    <fieldset>
+      <legend>Accodion</legend>
+      <div>
+        <!-- 여기에 html -->
+        <div class="container">
+          <div class="accordion">
+            
+            <input type="radio" name="accdionInput" id="accdionInput1-1">
+            <input type="radio" name="accdionInput" id="accdionInput1-2">
+            <input type="radio" name="accdionInput" id="accdionInput1-3">
+            <input type="radio" name="accdionInput" id="and">
+
+            <label for="accdionInput1-1" class="item1 original1 item flex">
+              <p class="title">Accordion Item #1</p>
+              <i class=" fa-angle-down fa"></i>
+            </label>
+            <label for="and" class="and1 and item flex">
+              <p class="title">Accordion Item #1</p>
+              <i class=" fa-angle-down fa"></i>
+            </label>
+
+            <div class="content content1">
+              <span class="title">This is the third item's accoridon body.</span> It is hidden by default, until the
+              collapse plugin adds the <br>
+              appropriate classes that we use to style each element. These classes controlr the overall<br>
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with<br>
+              custom CSS or overriding our defalut variables. It's also wort nothing that just about any HTML <br>
+              can go within the <span class="point">.accordion-body</span>, though the transition dose limit overflow.
+            </div>
+
+            <label for="accdionInput1-2" class="item2 original2 item flex">
+              <p class="title">Accordion Item #2</p>
+              <i class=" fa-angle-down fa"></i>
+            </label>
+            <label for="and" class="and2 and item flex">
+              <p class="title">Accordion Item #2</p>
+              <i class=" fa-angle-down fa"></i>
+            </label>
+
+            <div class="content content2">
+              <span class="title">This is the third item's accoridon body.</span> It is hidden by default, until the
+              collapse plugin adds the <br>
+              appropriate classes that we use to style each element. These classes controlr the overall<br>
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with<br>
+              custom CSS or overriding our defalut variables. It's also wort nothing that just about any HTML <br>
+              can go within the <span class="point">.accordion-body</span>, though the transition dose limit overflow.
+            </div>
+
+            <label for="accdionInput1-3" class="item3  original3 item flex">
+              <p class="title">Accordion Item #3</p>
+              <i class=" fa-angle-down fa"></i>
+            </label>
+            <label for="and" class="and3 and item flex">
+              <p class="title">Accordion Item #3</p>
+              <i class=" fa-angle-down fa"></i>
+            </label>
+
+            <div class="content content3">
+              <span class="title">This is the third item's accoridon body.</span> It is hidden by default, until the
+              collapse plugin adds the <br>
+              appropriate classes that we use to style each element. These classes controlr the overall<br>
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with<br>
+              custom CSS or overriding our defalut variables. It's also wort nothing that just about any HTML <br>
+              can go within the <span class="point">.accordion-body</span>, though the transition dose limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+  <div>
+    <fieldset>
+      <legend>Slide</legend>
+      <div>
+        <div class="container ">
+          <div class="slideView">
+           
+            <input type="radio" name="slideInput11" id="slideInput" checked>
+            <input type="radio" name="slideInput11" id="slideInput1L">
+            <input type="radio" name="slideInput11" id="slideInput2L">
+            <input type="radio" name="slideInput11" id="slideInput3L">
+            <input type="radio" name="slideInput11" id="slideInput1R">
+            <input type="radio" name="slideInput11" id="slideInput2R">
+            <input type="radio" name="slideInput11" id="slideInput3R">
+            <div class="slide flex">
+              <div class="item flex"><h2>Third slide</h2></div>
+              <div class="item flex"><h2>First slide</h2></div>
+              <div class="item flex"><h2>Second slide</h2></div>
+              <div class="item flex"><h2>Third slide</h2></div>
+              <div class="item flex"><h2>First slide</h2></div>
+            </div>
+            <label class="slideInput1L" for="slideInput1L"><i class="fa  fa-angle-left"></i></label>
+            <label class="slideInput2L" for="slideInput2L"><i class="fa  fa-angle-left"></i></label>
+            <label class="slideInput3L" for="slideInput3L"><i class="fa  fa-angle-left"></i></label>
+
+            <label class="slideInput1R" for="slideInput1R"><i class="fa  fa-angle-right"></i></label>
+            <label class="slideInput2R" for="slideInput2R"><i class="fa  fa-angle-right"></i></label>
+            <label class="slideInput3R" for="slideInput3R"><i class="fa  fa-angle-right"></i></label>
+            <div class="mineslide flex">
+              <div class="item"></div>
+              <div class="item"></div>
+              <div class="item"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+  <div>
+    <fieldset>
+      <legend>Slide (fade)</legend>
+      <div>
+        <!-- 여기에 html -->
+        <div class="container ">
+          <div class="fadeslideView">
+            <input type="radio" name="fadeslideInput" id="fadeslideInput1" checked>
+            <input type="radio" name="fadeslideInput" id="fadeslideInput2">
+            <input type="radio" name="fadeslideInput" id="fadeslideInput3">
+            <div class="fadeslide ">
+              <div class="item flex"><h2>First slide</h2></div>
+              <div class="item flex"><h2>Second slide</h2></div>
+              <div class="item flex"><h2>Third slide</h2></div>
+            </div>
+
+            <label class="fadeslideInput1L" for="fadeslideInput1">1<i class="fa  fa-angle-left"></i></label>
+            <label class="fadeslideInput2L" for="fadeslideInput2">2<i class="fa  fa-angle-left"></i></label>
+            <label class="fadeslideInput3L" for="fadeslideInput3">3<i class="fa  fa-angle-left"></i></label>
+
+            <label class="fadeslideInput1R" for="fadeslideInput1">1<i class="fa  fa-angle-right"></i></label>
+            <label class="fadeslideInput2R" for="fadeslideInput2">2<i class="fa  fa-angle-right"></i></label>
+            <label class="fadeslideInput3R" for="fadeslideInput3">3<i class="fa  fa-angle-right"></i></label>
+
+          </div>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+  <div>
+    <fieldset>
+      <legend>Collapse</legend>
+      <div>
+        <!-- 여기에 html -->
+        <div class="container">
+          <div class="collapse">
+            <input type="checkbox" id="collapse">
+            <label for="collapse">Link with href</label>
+            <div class="content">
+              <p>
+                Some placeholder content for the collapse. This panel id hidden by defalut but revealed <br>
+                when the user activates the relevant trigger.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+  <div>
+    <fieldset>
+      <legend>Dropdown</legend>
+      <div>
+        <!-- 여기에 html -->
+        <div class="container">
+          <div class="dropdown">
+            <input type="checkbox" id="dropdown">
+            <label for="dropdown" class="flex">
+              <p> Dropdown link</p>
+              <i class=" fa-caret-down fa"></i>
+            </label>
+            <div class="items">
+              <div>Action</div>
+              <div>Another action</div>
+              <div>Something else here</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+  <div>
+    <fieldset>
+      <legend>Popup</legend>
+      <div>
+        <div class="container">
+          <input type="radio" name="popup" id="popupInputclose1">
+          <input type="radio" name="popup" id="popupInputclose2">
+          <input type="radio" name="popup" id="popupInputclose3">
+          <input type="radio" name="popup" id="popupopen">
+          <div class="popup" id="popupClose">
+            <label for="popupopen">
+              <p>Launch demo modal</p>
+            </label>
+          </div>
+          
+          <label class="popupwrap" for="popupInputclose1">
+            <div class="popupContent container">
+              <div class="header flex">
+                <h2>Modal title</h2>
+                <label class="exit"for="popupInputclose2">X</label>
+              </div>
+              <hr>
+              <div class="content">
+                <p>Woohoo, you're reading this text in a modal!</p>
+              </div>
+              <hr>
+              <div class="btns flex">
+                <div class="btn">
+                  <label for="popupInputclose3">close</label>
+                </div>
+                <div class="btn">Save changes</div>
+              </div>
+            </div>
+          </label>
+          
+        </div>
+        <!-- 여기에 html -->
+        
+      </div>
+    </fieldset>
+  </div>
+</body>
+
+</html>
